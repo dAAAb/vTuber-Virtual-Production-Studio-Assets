@@ -65,7 +65,7 @@ The camera control script is very basic to get you started with virtual prodcuti
 To see beta version builds, please vist my github repo. 
 
 ## Versions Of This Camera System
-There are different versions of this suite. This is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the concept of Virtual Productions. 
+There are different versions of this suite. This is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the controls of the camera system and workflow of a virtual studio and designed to be extended. 
 
 **vTuberStudioAssets_v1.unitypackage**
 This package
