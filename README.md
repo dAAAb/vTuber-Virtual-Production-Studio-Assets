@@ -15,7 +15,7 @@ There are no avatars included, but this package is a great starting point to cre
 If you are looking for open source avatars I reccomend: Link
 
 ## Instructions 
-(C# control system included in packm this version runs in the Editor when you push Play)
+(C# control system included in _assets version runs in the Editor when you push Play)
 * 1-9 keys will swap between cameras
 * 0 goes to Overlay mode to display 
 
@@ -33,14 +33,14 @@ Slides (Use Numeric Keypad)
 When the keyboard controls are pressed (1-9) the camera seleted will be Set to Active, while the others are set to Inactive. The camera previews can be seen on the camera preview panel using Render textures at a lower resolution for optimization. 
 
 ## General Workflow
-To make a custom production, we create and customize a set, configure the locations of the cameras, animate the cameras, then during runtime, we use the camera control panel to switch between these cameras with a camera operator in real time with VRChat as our network and avatar layer. We are capturing the output with OBS (Open Broadcast Software) to captre the audio and video of the production from the game engine. 
+To make a custom production, we create and customize a set, configure the locations of the cameras, animate the cameras, then during runtime, we use the camera control panel to switch between these cameras with a camera operator in real time with VRChat as our network and avatar layer. We are capturing the output with OBS (Open Broadcast Software) to capture the audio and video of the production from the game engine. 
 
 The different versions of this software can be used in different ways depending on the platform you are planning to work on.
 
 It is common to use many platforms to create a virtual production.
 
 ## Slides / Overlay
-This system was designed with presentations in mind so we have an extra camera that renders planes in front of a camera to create the illusion of an Overlay by pushing 0.
+This system was designed with presentations in mind so we have an extra camera that renders planes in front of a camera to create the illusion of an Overlay by pushing 0. It is sort of a work around, and if you would like to extend or make this package better or more optimised, please feel free to submit a request. Thanks!
 
 We swap out 12 different Slides(show/hide gameObjects) using the numeric keypad and also the (.) key and the (+) key. 
 
@@ -50,7 +50,7 @@ You can swap out the pictures of the slides before building the production, by e
 Move the cameras (via the Parent Object) and feel free to animate or extend the cameras to do even more things like add more scripts and functionality as needed. If the camera are designed to be moved as rigid body, make sure to put the rigid body, and pickup scripts on the parent object to maintain the camera heirchy. Arrange the cameras around your set by translating the cameras manually, and checking the camera preview object to see how it looks in frame.
 
 ## Pro-Tip: 
-Because of the way the camera previews work, you should only move the Master Root of each camera. You can add an additional Parent object to the cameras if you like, and animate those for animated camera tracks. 
+Because of the way the camera previews work, you should only move the Master Root of each camera. You can add an additional Parent object to the cameras if you like, and animate those for animated camera tracks. The switches use SetGameObjetActive to turn on and off the cameras. I diddnt use an array, and instead just use conditions and input to swap cams, because of uSharp (VRC SDK constraints) and kept the code as simple as possible. The code can be re-written, and of course extended to do many more things then just switch cameras. i.e. Zoom camera shake, change post porocessing lens.
 
 ## Camera Culling / Hiding Objects From Cameras
 If you would like to hide / show things in the camera output, you would setup layers and use camera culling with a "SeenByCamera" layer and "GreenScreen" culling layers for teh reflection probe not to reflect the greenscreens.
@@ -70,10 +70,10 @@ There are different versions of this suite. This is the BOILERPLATE version that
 **vTuberStudioAssets_v1.unitypackage**
 This package
 
-**vTuberStudioTemplateSDK2_v1.unitypackageVRC** 
-VRC SDK2 Template World Build v1
+**vTuberStudioTemplateSDK2_v1 Unity Project Template** 
+VRC SDK2 
 
-**vTuberStudioTemplateUDON_v1.unitypackage**
+**vTuberStudioTemplateUDON_v1 Project Template**
 VRC SDK3 uDon / uSharp Template v1 
 
 **Custom vTuber Studio Template**
