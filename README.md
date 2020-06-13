@@ -25,7 +25,6 @@ Slides (Use Numeric Keypad)
 * R - Realtime Reflection Probe
 * L - Camera Light
 * U - Toggle All Cameras
-* K - Color Screen Toggle
 * P - Camera Previews Toggle
 * T - Studio Lights Toggle
 
@@ -67,15 +66,6 @@ To see beta version builds, please vist my github repo.
 ## Versions Of This Camera System
 There are different versions of this suite. This is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the controls of the camera system and workflow of a virtual studio and designed to be extended. 
 
-**vTuberStudioAssets_v1.unitypackage**
-This package
-
-**vTuberStudioTemplateSDK2_v1 Unity Project Template** 
-VRC SDK2 
-
-**vTuberStudioTemplateUDON_v1 Project Template**
-VRC SDK3 uDon / uSharp Template v1 
-
 **Custom vTuber Studio Template**
 Please contact me with project details.
 
@@ -95,7 +85,7 @@ https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for
 
 Special thanks to Jin, the VR Devs, and the Web XR community for helping in various way to make this possible.
 
-Please subscribe to my youtube page http://www.youtube.com/godfreymeyer and check out more v on my guthub github.com/gm3 Much love!
+Please subscribe to my youtube page http://www.youtube.com/godfreymeyer and check out more on my guthub github.com/gm3 Much love!
 
 
 ## Contact
