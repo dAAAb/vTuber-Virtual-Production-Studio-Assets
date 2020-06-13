@@ -8,11 +8,10 @@ This is an asset pack for doing virtual productions. You can apply these assets 
 Inside Unity, you can import / create your own set and then use this camera system to help you speed up production with access to 9 cameras, and 12 overlay slides.
 
 ## What is Included
-Included is the this package are the assets to make a full studio environment setup for virtual productions. 
+Included is the this package are the assets to make a full studio environment setup for virtual production in Unity3d. We arrage the multi-camera assets to fit each unique production. (podcast, film, vfx, performance, vr room, stream, vTubing) 
 
-There are no avatars included, but this package is a great starting point to create a virtual world to produce content in. 
+There are no avatars included, but this package is a great starting point to create a virtual world to produce content on the platform you would like to create content on. 
 
-If you are looking for open source avatars I reccomend: Link
 
 ## Instructions 
 (C# control system included in _assets version runs in the Editor when you push Play)
@@ -25,17 +24,16 @@ Slides (Use Numeric Keypad)
 * R - Realtime Reflection Probe
 * L - Camera Light
 * U - Toggle All Cameras
-* K - Color Screen Toggle
 * P - Camera Previews Toggle
 * T - Studio Lights Toggle
 
 ## Camera Controls
-When the keyboard controls are pressed (1-9) the camera seleted will be Set to Active, while the others are set to Inactive. The camera previews can be seen on the camera preview panel using Render textures at a lower resolution for optimization. 
+When the keyboard controls are pressed (1-9) the camera seleted will be Set to Active, while the others are set to Inactive. This will feed the main camera output(render texture) The camera previews can be seen on the camera preview panel using Render textures as well( at a lower resolution for optimization. ) The camera previews are a duplicate of the main camera with all of the exact same parameters, except they feed a render texture so that you can preview the cameras before switching.
 
 ## General Workflow
-To make a custom production, we create and customize a set, configure the locations of the cameras, animate the cameras, then during runtime, we use the camera control panel to switch between these cameras with a camera operator in real time with VRChat as our network and avatar layer. We are capturing the output with OBS (Open Broadcast Software) to capture the audio and video of the production from the game engine. 
+To make a custom production, we create and customize a set, configure the locations of the cameras, animate the cameras, then during runtime, we use the camera control panel to switch between these cameras with a camera operator in real time. We have a version of this studio running inside VRChat, and use that software as our networked IK, motion capture, and avatar layer. We are capturing the video output with OBS (Open Broadcast Software) from the game engine we are rendering our scene in. 
 
-The different versions of this software can be used in different ways depending on the platform you are planning to work on.
+Depending on the platform you are planning to work on. The approach will be different. Currently we use platforms like VRChat (Unity3d), and Unreal Engine to do virtual productions over the network.
 
 It is common to use many platforms to create a virtual production.
 
@@ -62,22 +60,10 @@ VRChat SDK will be needed to use the Template packages (for Multiplayer VR Build
 
 The camera control script is very basic to get you started with virtual prodcutions. They were coded in a way to make it easier to port to VRChat / uDon / uSharp. (certain functions and classes are not available inside VRChat SDK3)
 
-To see beta version builds, please vist my github repo. 
+I will be uploading the VRChat builds for SDK2 and uDon Soon.
 
 ## Versions Of This Camera System
 There are different versions of this suite. This is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the controls of the camera system and workflow of a virtual studio and designed to be extended. 
-
-**vTuberStudioAssets_v1.unitypackage**
-This package
-
-**vTuberStudioTemplateSDK2_v1 Unity Project Template** 
-VRC SDK2 
-
-**vTuberStudioTemplateUDON_v1 Project Template**
-VRC SDK3 uDon / uSharp Template v1 
-
-**Custom vTuber Studio Template**
-Please contact me with project details.
 
 ## Template VRChat MultiplayerStudio 
 We have a template vTuber Studio availible as a drag and drop prefab, that works with VRC SDK2. With this prefab you can make your own production studio inside VRChat by customizing the enviroment and uploading to VRChat Servers.
@@ -95,7 +81,7 @@ https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for
 
 Special thanks to Jin, the VR Devs, and the Web XR community for helping in various way to make this possible.
 
-Please subscribe to my youtube page http://www.youtube.com/godfreymeyer and check out more v on my guthub github.com/gm3 Much love!
+Please subscribe to my youtube page http://www.youtube.com/godfreymeyer and check out more on my guthub github.com/gm3 Much love!
 
 
 ## Contact
