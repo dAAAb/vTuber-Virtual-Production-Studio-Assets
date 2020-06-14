@@ -62,18 +62,6 @@ The camera control script is very basic to get you started with virtual prodcuti
 
 I will be uploading the VRChat builds for SDK2 and uDon Soon.
 
-## Versions Of This Camera System
-There are different versions of this suite. This is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the controls of the camera system and workflow of a virtual studio and designed to be extended. 
-
-## Template VRChat MultiplayerStudio 
-We have a template vTuber Studio availible as a drag and drop prefab, that works with VRC SDK2. With this prefab you can make your own production studio inside VRChat by customizing the enviroment and uploading to VRChat Servers.
-
-## Custom VRChat Multiplayer Studio
-Our crew is available for comission to create CUSTOM VR Production studios for podcasts, music videos, films, concerts, events, and other productions. We will curate models based on the budget and deisgn, light, and customize your production studio to meet your needs. If you have any custom productions in mind, please feel free to reach out! @godfreymeyer
-
-## Examples
-Please check out the examples and tutorials on my youtube page to get familiar on the workflow on virtual prodcutions. These asset can be ported to work in any game engine, and the basic camera control scipts have been written in C# and would have to be ported to work on other platforms tah Unity. Using platforms like VRChat, we have filmed many music videos, podcasts and events in VR using this system as a base. It has sped up production when making rooms or builds for vTubing, vPodcasts, and vFilms, and endless "over the network, real-time collaborative" projects. 
-
 ## Web Resources:
 http://Unity3d.com/
 http://vrchat.com/
