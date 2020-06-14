@@ -78,6 +78,9 @@ Please check out the examples and tutorials on my youtube page to get familiar o
 http://Unity3d.com/
 http://vrchat.com/
 https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351
+http://www.crdcenter.com Materials and Microphone
+JetDogs Prefabs for Projector and other VRC scritps
+HangoutPlayer for VRC Video Player
 
 Special thanks to Jin, the VR Devs, and the Web XR community for helping in various way to make this possible.
 
