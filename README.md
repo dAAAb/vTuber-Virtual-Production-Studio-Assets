@@ -62,6 +62,18 @@ The camera control script is very basic to get you started with virtual prodcuti
 
 I will be uploading the VRChat builds for SDK2 and uDon Soon.
 
+## Versions Of This Camera System
+There are different versions of this suite. The package in this Git repo is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the controls of the camera system and workflow of a virtual studio and designed to be extended. You would use this to port or work with this camera workflow in a stand alone app. If you are looking for the vrchat version, check the links below.
+
+## Template VRChat MultiplayerStudio 
+We have a template vTuber Studio full Unity Project with the VRC SDK2, you can use to make a room inside VRChat https://drive.google.com/drive/folders/1irUhOpPfYwXqbz8Adx5mjN2feHagZ7qa?usp=sharing too check out the room working inside vrchat please vidit this link https://vrchat.com/home/launch?worldId=wrld_9842d4fc-0c40-4e00-887e-5f2ef596c65c&instanceId=22135
+
+## Custom VRChat Multiplayer Studio
+Our crew is available for comission to create CUSTOM VR Production studios for podcasts, music videos, films, concerts, events, and other productions. We will curate models based on the budget and deisgn, light, and customize your production studio to meet your needs. If you have any custom productions in mind, please feel free to reach out! @godfreymeyer
+
+## Examples
+Please check out the examples and tutorials on my youtube page to get familiar on the workflow on virtual prodcutions. These asset can be ported to work in any game engine, and the basic camera control scipts have been written in C# and would have to be ported to work on other platforms tah Unity. Using platforms like VRChat, we have filmed many music videos, podcasts and events in VR using this system as a base. It has sped up production when making rooms or builds for vTubing, vPodcasts, and vFilms, and endless "over the network, real-time collaborative" projects. 
+
 ## Web Resources:
 http://Unity3d.com/
 http://vrchat.com/
